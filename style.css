@@ -1,0 +1,69 @@
+body{
+    font-family:"cursive"!important;
+    text-shadow: none;
+   height: 1000px !important;
+}
+*{
+    text-shadow: none;
+    box-shadow: none;
+}
+.slider h3, .clients h3
+.slider h5{
+    text-shadow: 5px 2px 3px rgba(0, 0, 0, .5);
+}
+.sidenav li a{
+    /* border-bottom: 1px solid rgba(0, 0, 0, .5) ; */
+    margin-top: 10px;
+}
+.parallax-container{
+    height: 70%;
+}
+.parallax img{
+    background-size: cover;
+    /* filter: grayscale(.5);
+    opacity: 0.7 !important; */
+}
+.clients img{
+    max-width: 200px ;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0, 0.7));
+    padding: 5px ;
+}
+.sidenav {
+    width: 220px;
+}
+.ikon{
+    width: 90px;
+    height: 90px;
+    border: solid 2px black;
+    border-radius: 50%;
+    color: black;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.service{
+   background-color: #e0e0e0 !important ;
+   margin-top: -50px;
+}
+.contact{
+    background-color:#e0e0e0 !important ;
+    margin-top: -33px;
+    margin-bottom: -20px;
+    margin-top: 10px !important;
+}
+ .card:hover{
+    transform: scale(.3);
+    transform: rotate(45deg);
+    transition: .7s ;
+}
+footer{
+    padding: 30px 0;
+}
+
+
+ @media (min-width: 300px ) and (max-width: 610px ){
+     .ikon-nav  {
+         padding-top: 13px;
+     }
+ }
+ 
